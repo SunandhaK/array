@@ -4,7 +4,7 @@ public class Array {
 
 	public static void main(String[] args)
 	{
-		float one[] = new float[10];		 
+		float one[] = new float[11];		 
 		one[0] = 10.2f;
 		one[1] = 12.2f;
 		one[2] = 15.6f;
@@ -15,6 +15,7 @@ public class Array {
 		one[7] = 11.2f;
 		one[8] = 18.5f;
 		one[9] = 14.3f;
+		one[10] = 20.1f;
 	for (int i=0; i<one.length-1;i++)
 	{
 		System.out.println(one[i]);
